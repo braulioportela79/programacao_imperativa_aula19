@@ -42,7 +42,7 @@ let mediaAlturaMulheres = obj => {
     for (let i = 0; i < alturaMulheres.length; i++) {
         somaAlturaMulheres += alturaMulheres[i] / alturaMulheres.length;
     };
-    console.log(`A média de altura das mulheres é ${somaAlturaMulheres.toFixed(2)}m`);
+    console.log(`A média de altura das mulheres é ${somaAlturaMulheres.toFixed(2)}m.`);
 };
 
 mediaAlturaMulheres(pessoa);
