@@ -18,6 +18,7 @@ const pessoa = [
     { altura: 1.87, sexo: 'M' }
 ];
 
+
 // Faça um programa que calcule e escreva:
 
 // - a maior e a menor altura do grupo;
