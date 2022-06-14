@@ -50,8 +50,8 @@ mediaAlturaMulheres(pessoa);
 // - o número de homens;
 
 let qtdHomens = obj => {
-    let qtdHomens = obj.filter(e => e.sexo == 'M');
-    console.log(`O número de homens é de ${qtdHomens.length}.`);
+    let arrayHomens = obj.filter(e => e.sexo == 'M');
+    console.log(`O número de homens é de ${arrayHomens.length}.`);
 };
 
 qtdHomens(pessoa);
